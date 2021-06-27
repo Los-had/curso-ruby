@@ -14,3 +14,9 @@ g = 20
 h = 2
 divisao = g / h
 puts divisao
+
+# float
+i = 1342.7
+j = 23.4
+divisao_com_ponto_flutuante = i.to_f / j.to_f
+puts divisao_com_ponto_flutuante
