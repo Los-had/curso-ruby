@@ -1,4 +1,5 @@
-puts "Bem vindo a calculadora"
+puts "Bem vindo a calculadora!"
+puts "--------------"
 def somar(a, b)
     puts a + b
 end
