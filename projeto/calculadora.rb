@@ -9,7 +9,13 @@ def multiplicar(e, f)
     puts e * f
 end 
 def dividir(g, h)
+  if g == 0
+    puts "Não é possível dividir por 0"
+  elsif h == 0
+    puts "Não é possível dividir por 0"
+  else 
     puts g / h
+  end
 end
 def menu()
     puts "1.Somar\n2.Subtrair\n3.Dividir\n4.Multiplicar"
@@ -39,6 +45,8 @@ def menu()
         puts "Segundo número"
         num2 = gets.chomp.to_i
         multiplicar(num1, num2)
+    else
+      puts "Operação inválida."
     end 
 end 
 menu()
