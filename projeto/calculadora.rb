@@ -11,14 +11,16 @@ end
 def dividir(g, h)
   if g == 0
     puts "Não é possível dividir por 0"
+    menu()
   elsif h == 0
     puts "Não é possível dividir por 0"
+    menu()
   else 
     puts g / h
   end
 end
 def menu()
-    puts "1.Somar\n2.Subtrair\n3.Dividir\n4.Multiplicar"
+    puts "1.Somar\n2.Subtrair\n3.Dividir\n4.Multiplicar\n--------------"
     choice_of_calc = gets.chomp
     case choice_of_calc
     when '1'
