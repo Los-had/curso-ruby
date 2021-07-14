@@ -2,12 +2,15 @@ puts "Bem vindo a calculadora!"
 puts "--------------"
 def somar(a, b)
     puts a + b
+    menu()
 end
 def subtrair(c, d)
     puts c - d
+    menu()
 end 
 def multiplicar(e, f)
     puts e * f
+    menu()
 end 
 def dividir(g, h)
   if g == 0
@@ -18,6 +21,7 @@ def dividir(g, h)
     menu()
   else 
     puts g / h
+    menu()
   end
 end
 def menu()
