@@ -3,10 +3,19 @@ def random_number()
   min = gets.chomp.to_i
   puts "Valor máximo"
   max = gets.chomp.to_i
-  num = rand(min..max)
-  puts "------------------------------\n Número: #{num}\n------------------------------"
+  if min <= 0
+    puts "O número minimo não pode ser menor ou igual a zero."
+  elsif max <= 0
+    puts "O número máximo não pode ser menor ou igual a zero."
+  else
+    num = rand(min..max)
+    puts "------------------------------\n Número: #{num}\n------------------------------"
+  end
 end
-puts "Gerador de números aleatórios"
-puts "------------------------------"
+def menu()
+  puts "Gerador de números aleatórios"
+  puts "------------------------------"
 
-random_number()
+  random_number()
+end
+menu()
