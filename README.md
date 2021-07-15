@@ -5,3 +5,5 @@
 calculadora que faz soma, subtração, divisão e multiplicação
 ## Random
 Gerador de números aleatórios entre dois valores(minimo e maximo)
+## reverse
+inverte a string digitada pelo usuário utilizando o método reverse
