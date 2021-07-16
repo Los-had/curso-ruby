@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    securerandom (0.1.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  securerandom (~> 0.1.0)
+
+BUNDLED WITH
+   2.2.7
