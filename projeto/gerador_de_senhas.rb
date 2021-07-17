@@ -8,7 +8,7 @@ def menu()
     ndc = gets.chomp.to_i
     senha = ""
     ndc.times do
-      senha += (rand(128).chr)
+      senha += (rand(120).chr)
     end
     puts senha
     puts "Deseja salvar senha em um arquivo?(y/n)"
