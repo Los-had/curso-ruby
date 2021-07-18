@@ -23,10 +23,12 @@ def menu()
           nova_senha = SecureRandom.base64()
           arq = File.new('senha.txt', 'a')
           arq.write(nova_senha)
+          arq.close()
           menu()
         elsif encryption_choice == "n"
           arq = File.new('senha.txt', 'a')
           arq.write(senha)
+          arq.close()
           menu()
         else
           puts "'#{encryption_choice}': é inválido'"
