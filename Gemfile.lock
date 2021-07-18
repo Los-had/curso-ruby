@@ -1,12 +1,14 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    birthcert (0.1.0)
     securerandom (0.1.0)
 
 PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  birthcert (~> 0.1.0)
   securerandom (~> 0.1.0)
 
 BUNDLED WITH
