@@ -11,3 +11,12 @@ inverte a string digitada pelo usuário utilizando o método reverse
 Gerador de senhas que gera senhas de tamanho personalizado e salva em um arquivo. E também criptografa a senha se o usuário desejar utilizando o módulo SecureRandom
 ## Gerador de fakes
 gera dados fakes (email e idade).
+## Caesar-Cracker
+[Link Repl.it](https://replit.com/@Loshad/Caesar-Cracker?v=1)
+
+[Link GitHub](https://github.com/Los-had/Caesar-Cracker)
+
+## Vigenère-cipher
+[Link Repl.it](https://replit.com/@choccy-milk/Vigenere-cipher?v=1)
+
+[Link GitHub](https://github.com/Los-had/Vigenere-cipher)
